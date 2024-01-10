@@ -3,7 +3,7 @@
         display: none;
     }
 
-    #hamburger-nav {
+    #hamburger.nav {
         display: flex;
     }
 }

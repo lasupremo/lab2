@@ -348,3 +348,7 @@ article .icon {
 }
 
 /* HOBBIES SECTION */
+
+#hobbies {
+    position: relative;
+}

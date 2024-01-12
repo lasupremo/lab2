@@ -1,8 +1,3 @@
-function updateFooterYear() {
-    const currentYear = new Date().getFullYear();
-    document.querySelector('footer p').textContent += ` ${currentYear}`;
-}
-
 function toggleMenu () {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");

@@ -5,5 +5,7 @@ function toggleMenu () {
     icon.classList.toggle("open")
 }
 
-const currentYear = new Date().getFullYear();
-document.querySelector('footer p').textContent += ` ${currentYear}`;
+function footerYear () {
+    const currentYear = new Date().getFullYear();
+    document.querySelector('footer p').textContent += ` ${currentYear}`;
+}

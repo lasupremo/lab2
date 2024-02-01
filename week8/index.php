@@ -90,6 +90,8 @@
                 </div>
                 <div class="text-container">
                     <?php
+                    $school = "Asia Pacific College";
+                    $course = "Computer Science";
                     $birthdate = "2004-07-02";
 
                     $currentDate = new DateTime();
@@ -97,7 +99,7 @@
 
                     $age = $currentDate->diff($birthDateObj)->y;
 
-                    echo "<p>I am $age years old. Currently a sophomore in Asia Pacific College studying Computer Science. I aspire to create a video game that a lot of people can enjoy.</p>"
+                    echo "<p>I am $age years old. Currently a sophomore in $school studying $course. I aspire to create a video game that a lot of people can enjoy.</p>"
                     ?>
                 </div>
             </div>

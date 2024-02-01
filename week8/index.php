@@ -102,7 +102,7 @@
 
                     $age = $currentDate->diff($birthDateObj)->y;
 
-                    echo "<p>I am $age years old. Currently a sophomore in $school studying $course. I aspire to create a video game that a lot of people can enjoy. There are $ngames that I currently enjoy. One of them being $game1</p>"
+                    echo "<p>I am $age years old. Currently a sophomore in $school studying $course. I aspire to create a video game that a lot of people can enjoy. There are $ngames games that I currently enjoy. One of them being $game1.</p>"
                     ?>
                 </div>
             </div>

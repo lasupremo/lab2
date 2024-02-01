@@ -96,6 +96,7 @@
                     $age = $currentYear - $yearOfBirth;
 
                     echo "I am $age years old."
+                    ?>
                 </div>
             </div>
         </div>

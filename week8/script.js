@@ -4,3 +4,9 @@ function toggleMenu () {
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
+
+function displayLocalTime() {
+    var userLocalTime = new Date();
+    var hours = userLocalTime.getHours();
+    var minutes = userLocalTime.getMinutes();
+}

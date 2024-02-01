@@ -234,9 +234,9 @@
         $awake = ':3';
         $sleep = 'ᶻ 𝗓 𐰁 "( – ⌓ – )';
         if ($currentTime >= "07:30" && $currentTime < "23:00") {
-            echo '<h1 class="title">' . $awake . '</h1>'
+            echo '<h1 class="title">' . $awake . '</h1>';
         } else {
-            echo '<h1 class="title">' . $sleep . '</h1>'
+            echo '<h1 class="title">' . $sleep . '</h1>';
         }
         ?>
         <div class="contact-info-upper-container">

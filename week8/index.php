@@ -89,7 +89,6 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium sit repudiandae beatae a illum, voluptatem doloribus, consequuntur voluptatum officia hic iure ipsum fuga expedita rerum minus nihil odit quasi dignissimos enim natus! Aut possimus, quos doloribus aperiam enim natus voluptatum molestiae, repudiandae temporibus perspiciatis dignissimos ullam nostrum sed nam?</p>
                     <?php
                     $birthdate = "2004-07-02";
 
@@ -98,7 +97,7 @@
 
                     $age = $currentDate->diff($birthDateObj)->y;
 
-                    echo "<p>I am $age years old.</p>"
+                    echo "<p>I am $age years old. Currently a sophomore in Asia Pacific College studying Computer Science. I aspire to create a video game that a lot of people can enjoy.</p>"
                     ?>
                 </div>
             </div>

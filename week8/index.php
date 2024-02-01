@@ -90,6 +90,12 @@
                 </div>
                 <div class="text-container">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium sit repudiandae beatae a illum, voluptatem doloribus, consequuntur voluptatum officia hic iure ipsum fuga expedita rerum minus nihil odit quasi dignissimos enim natus! Aut possimus, quos doloribus aperiam enim natus voluptatum molestiae, repudiandae temporibus perspiciatis dignissimos ullam nostrum sed nam?</p>
+                    <?php
+                    $currentYear = date("Y");
+                    $yearOfBirth = 2004;
+                    $age = $currentYear - $yearOfBirth;
+
+                    echo "I am $age years old."
                 </div>
             </div>
         </div>

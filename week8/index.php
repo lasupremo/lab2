@@ -91,10 +91,13 @@
                 <div class="text-container">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium sit repudiandae beatae a illum, voluptatem doloribus, consequuntur voluptatum officia hic iure ipsum fuga expedita rerum minus nihil odit quasi dignissimos enim natus! Aut possimus, quos doloribus aperiam enim natus voluptatum molestiae, repudiandae temporibus perspiciatis dignissimos ullam nostrum sed nam?</p>
                     <?php
-                    $currentYear = date("Y");
-                    $yearOfBirth = 2004;
-                    $age = $currentYear - $yearOfBirth;
+                    $birthdate = "2004-07-02";
 
+                    $currentDate = new DateTime();
+                    $birthDateObj = new DateTime($birthdate);
+
+                    $age = $currentDate->diff($birthDateObj)->y;
+                    
                     echo "I am $age years old."
                     ?>
                 </div>

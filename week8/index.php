@@ -98,7 +98,7 @@
 
                     $age = $currentDate->diff($birthDateObj)->y;
 
-                    echo '<p>I am $age years old.</p>'
+                    echo "<p>I am $age years old.</p>"
                     ?>
                 </div>
             </div>

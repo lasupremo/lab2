@@ -228,7 +228,17 @@
     </section>
     <section id="contact">
         <p class="section__text__p1">My Contacts</p>
-        <h1 class="title">:3</h1>
+        <?php 
+        $currentTime = date("H:i:s");
+
+        $awake = ':3';
+        $sleep = 'ᶻ 𝗓 𐰁 "( – ⌓ – )';
+        if ($currentTime >= "07:30" && $currentTime < "23:00") {
+            <h1 class="title">$awake</h1>
+        } else {
+            <h1 class="title">$sleep</h1>
+        }
+        ?>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img 

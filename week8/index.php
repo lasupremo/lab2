@@ -367,7 +367,7 @@
 <script src="script.js"></script>
 
 <?php
-$servername = "localhost:3306";
+$servername = "localhost";
 $username = "webprogss221";
 $password = "=latHen97";
 $dbname = "webprogss221";
